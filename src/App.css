@@ -1,0 +1,80 @@
+#root {
+  width: 92vw;
+  min-height: 96vh;
+  
+  margin: 1.5vh 0vw 1.5vh 4vw;
+  background: #FEFEFE;
+  box-shadow: 4px 4px 40px 6px rgba(0, 0, 0, 0.5);
+  border-radius: 50px;
+}
+
+.row1{
+  padding-top: 10vh;
+  padding-bottom: 8vh;
+  min-height: 94vh;
+}
+
+.heading{
+  font-family: 'Roboto';
+  font-weight: 600;
+  font-size: 55px;
+  line-height: 90px;
+}
+
+.para{
+  font-family: 'Roboto';
+  font-size: 23px;
+  line-height: 25px;
+  margin-left: 5px;
+  margin-bottom: 40px;
+  color: #6A6767;
+}
+
+.box1{
+  align-items: center;
+  width: 390px;
+  height: 55px;
+  margin-top: 18px;
+  background: rgba(254, 249, 199, 0.7);
+  border-radius: 10px;
+  border: none;
+}
+
+.box2{
+  padding: 11px 12px 11px 12px;
+  margin-right: 15px;
+  background: rgba(159, 237, 215, 0.5);
+  border-radius: 40%;
+}
+
+input,input:active,input:active:focus{
+  background: #ffffff00;
+  border: none;
+  outline: none;
+  width:320px;
+  height:52px;
+}
+
+input::placeholder{
+  font-size: 20px;
+}
+
+.fa-instagram{
+  color: #ffffff;
+}
+
+.box1 .fa{
+  margin: 0 1.5rem 0rem 1.6rem;
+  color:rgb(58, 58, 58);
+}
+
+.box1 .fa-envelope-o{
+  margin: 0 1.4rem 0rem 1.4rem;
+}
+
+.box3{
+  height: 70vh;
+  background: #FFFFFF;
+  box-shadow: 4px 4px 20px 1px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
