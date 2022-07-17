@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/contact-mwep/precache-manifest.751c9a50678ec38ca1a61880c6dee08d.js"
+  "/contactus-mwep/precache-manifest.d3e10a63a855fa8c8b8a127a0b62c545.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/contact-mwep/index.html", {
+workbox.routing.registerNavigationRoute("/contactus-mwep/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
